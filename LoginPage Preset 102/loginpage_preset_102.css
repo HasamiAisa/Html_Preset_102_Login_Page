@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*-------- Css Original By Ludiflex ---------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /*--- Pic BG Here---*/
+    background-image: url("pic/BG_CS_PV_21.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+/*------------ Login container ------------*/
+@media only screen and (min-width: 990px) {
+  .box-area{
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .box-area {
+    width: 100%;
+  }
+}
+
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.button_border{
+  border: solid black 4px;
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 700px) {
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
+
+/*---------- Css ReMake By 波佐見アイサ ---------*/
+
+/*---------- NavBar Css ---------*/
+
+.header_kustom {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: sticky;
+  z-index: 100;
+}
+
+.navbar_sty {
+  z-index: 2;
+  border-bottom: solid 1px #000000;
+  background-color: #fffdfdb9;
+  font-weight: 600;
+  box-shadow: 0px 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*--------- login Content Css ---------*/
+.img_kustom{
+    width: I Dont Know;
+}
+
+@media only screen and (max-width: 700px) {
+  .img_kustom{
+    margin-top: 2rem;
+  }
+}
+
+/*--------- Responsive Font By ChatGPT ---------*/
+.res-text {
+  font-size: 34px; /* Default font size */
+  margin: 0%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .res-text {
+      font-size: 26px; /*ReFont Size*/
+      margin: 0%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .res-text {
+      font-size: 14px; /*ReFont Size*/
+      margin: 0%;
+      overflow: hidden;
+  }
+}
+
+.hind-textxx{
+  overflow: I Dun Know;
+}
+
+@media only screen and (max-width: 770px) {
+  .hind-textxx {
+      margin: 0%;
+      overflow: hidden;
+  }
+}
+
+.pass-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.shadow-kustom {
+    box-shadow: 0px 0px 19px 14px rgba(0, 0, 0, 0.6);
+}
+
+.shadow-kustom2 {
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+/*--------- Footer Css ---------*/
+.footer {
+  width: 100%;
+  padding-top: 1.5rem;
+  position: fixed;
+  border-top: solid 1px #000000;
+  background-color: #fffdfdb9;
+  text-align: left;
+  color: #000000;
+  & strong {
+    margin-left: 1.5rem;
+  }
+
+}
