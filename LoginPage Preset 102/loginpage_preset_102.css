@@ -97,6 +97,16 @@ body{
   }
 }
 
+.sub-Text-xx {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 990px) {
+  .sub-Text-xx {
+    width: 15rem;
+  }
+}
+
 /*--------- Responsive Font By ChatGPT ---------*/
 .res-text {
   font-size: 34px; /* Default font size */
@@ -110,19 +120,21 @@ body{
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 990px) {
   .res-text {
-      font-size: 14px; /*ReFont Size*/
+      font-size: 20px; /*ReFont Size*/
       margin: 0%;
       overflow: hidden;
+      text-wrap: wrap;
   }
 }
 
 .hind-textxx{
-  overflow: I Dun Know;
+  padding: -15px;
+  overflow-wrap:break-word;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 780px) {
   .hind-textxx {
       margin: 0%;
       overflow: hidden;
